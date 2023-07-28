@@ -1,0 +1,772 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1556624DC2037605696F3806B3F272E4 /* Pods-printJoy_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 92EA2AEBE344C87973805BAF40391DFC /* Pods-printJoy_Example-dummy.m */; };
+		52EFCB8E919025AF8C4B5D9056CEAEAB /* Pods-printJoy_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A50FBE5CEB73BDE8561A934BE9C03465 /* Pods-printJoy_Tests-dummy.m */; };
+		5E64E354CBD4C687852E89319042F288 /* Pods-printJoy_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8568D85F6AEC20CBDB606B7CD7AF9D9C /* Pods-printJoy_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88C6244420BDD81DE504536ED06B1B76 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13037EAC179E4A2E0CF6F0A445B35BD /* ReplaceMe.swift */; };
+		8D71D5EA16629FB7F1C450E4B5D060A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		93C7C597B9534437A1D56718DF881811 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		CD17BBE844D70D8867E14A1BFECE2282 /* printJoy-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B16DBD4962AB376873AA3B75C909B2A4 /* printJoy-dummy.m */; };
+		D0995A1F2ED207658239521A84F0B537 /* printJoy-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 52A140C3110A29BB1A559D1921CCD961 /* printJoy-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2A133F86C4A532E74C158B6427004DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		FFB4122BBEFC2EF7F10E9BF1539B4E65 /* Pods-printJoy_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DB37CF7B3A40B427E0307285347713C /* Pods-printJoy_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A6942343677A43C555FB62562ABA3F67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8175F1B374A8D91FF766BF2E7D806E5C;
+			remoteInfo = "Pods-printJoy_Example";
+		};
+		CC39976A2190198AB72B9D45B27BBA25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 370A776C2B923257C38BD875A6170AD9;
+			remoteInfo = printJoy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04CF33F4519CB3059F513291D55E77C1 /* Pods-printJoy_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-printJoy_Tests.modulemap"; sourceTree = "<group>"; };
+		0EC1CED735284762F907CAE1C8FA2D1F /* Pods-printJoy_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-printJoy_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		290632FB3482C8995D11124BBE20E440 /* Pods_printJoy_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_printJoy_Tests.framework; path = "Pods-printJoy_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DB37CF7B3A40B427E0307285347713C /* Pods-printJoy_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-printJoy_Example-umbrella.h"; sourceTree = "<group>"; };
+		4714B759E5FFB92EF119B56B56ACD1C9 /* printJoy.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = printJoy.xcconfig; sourceTree = "<group>"; };
+		4EDE8D246D5301D707BA4AB654B16D67 /* Pods-printJoy_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-printJoy_Tests-Info.plist"; sourceTree = "<group>"; };
+		5069E786D2699A27A00AB5766904E5BF /* Pods-printJoy_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-printJoy_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		52A140C3110A29BB1A559D1921CCD961 /* printJoy-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "printJoy-umbrella.h"; sourceTree = "<group>"; };
+		627C00B7E213D205E53B1D085799CC36 /* printJoy.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = printJoy.modulemap; sourceTree = "<group>"; };
+		62B80E3B97466879EDD0E3F3112E3C91 /* Pods-printJoy_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-printJoy_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		6381A2606A9EFC994BC965431838C702 /* printJoy.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = printJoy.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		69BB9D92EC64A510967FF89CC2F44CCE /* Pods-printJoy_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-printJoy_Example-Info.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		79BE77236F0CFDC17331773991151A9E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		7C51FDA1DE92F3CA132E6A035B3536BF /* Pods_printJoy_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_printJoy_Example.framework; path = "Pods-printJoy_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8568D85F6AEC20CBDB606B7CD7AF9D9C /* Pods-printJoy_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-printJoy_Tests-umbrella.h"; sourceTree = "<group>"; };
+		92EA2AEBE344C87973805BAF40391DFC /* Pods-printJoy_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-printJoy_Example-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A14756163CF81DE3F7CE37BF17C3640C /* Pods-printJoy_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-printJoy_Example-frameworks.sh"; sourceTree = "<group>"; };
+		A2ED12BC55DF03ED76DEE832AB428F14 /* Pods-printJoy_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-printJoy_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A50FBE5CEB73BDE8561A934BE9C03465 /* Pods-printJoy_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-printJoy_Tests-dummy.m"; sourceTree = "<group>"; };
+		AB41737CC21384DAE78160D06299ADA1 /* printJoy-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "printJoy-prefix.pch"; sourceTree = "<group>"; };
+		B16DBD4962AB376873AA3B75C909B2A4 /* printJoy-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "printJoy-dummy.m"; sourceTree = "<group>"; };
+		B2674EF518130BF51510D9BA8CA3ED9C /* printJoy-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "printJoy-Info.plist"; sourceTree = "<group>"; };
+		BA441809071549525D70B3BBFADA5E68 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		BBDF5CF596094E933637B493D924C2BD /* Pods-printJoy_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-printJoy_Example.modulemap"; sourceTree = "<group>"; };
+		D74DADA8B00D60EF3EA04600D2664183 /* Pods-printJoy_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-printJoy_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D97D26150713E9BEE83C8BC010455ADA /* printJoy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = printJoy.framework; path = printJoy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E13037EAC179E4A2E0CF6F0A445B35BD /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = printJoy/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		E7979DE2BF9C384135203712253B8D21 /* Pods-printJoy_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-printJoy_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		ECD5765F4FF2E7EEE4111F56593C947C /* Pods-printJoy_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-printJoy_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F2AF27C7A0ACDDA146147B313B81DE0E /* Pods-printJoy_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-printJoy_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06A778F151864CF7292D266796A71C72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2A133F86C4A532E74C158B6427004DD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F4DFC925183DB7BD2C17D0B67D23F50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93C7C597B9534437A1D56718DF881811 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39B21EDFB51F573040CB144187BA53CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D71D5EA16629FB7F1C450E4B5D060A3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CFA36217B26500DBD9C681136B5FE9F /* printJoy */ = {
+			isa = PBXGroup;
+			children = (
+				E13037EAC179E4A2E0CF6F0A445B35BD /* ReplaceMe.swift */,
+				136B7D7BADCBE716BCFE425614CB5D25 /* Pod */,
+				FF4445364FD187FD1BA3907AAC3DC51A /* Support Files */,
+			);
+			name = printJoy;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		136B7D7BADCBE716BCFE425614CB5D25 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				BA441809071549525D70B3BBFADA5E68 /* LICENSE */,
+				6381A2606A9EFC994BC965431838C702 /* printJoy.podspec */,
+				79BE77236F0CFDC17331773991151A9E /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		1CB927C7A4D7771F2C34350F299FC1A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7C51FDA1DE92F3CA132E6A035B3536BF /* Pods_printJoy_Example.framework */,
+				290632FB3482C8995D11124BBE20E440 /* Pods_printJoy_Tests.framework */,
+				D97D26150713E9BEE83C8BC010455ADA /* printJoy.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48042D2DE9E562CEB3886560168C5049 /* Pods-printJoy_Example */ = {
+			isa = PBXGroup;
+			children = (
+				BBDF5CF596094E933637B493D924C2BD /* Pods-printJoy_Example.modulemap */,
+				A2ED12BC55DF03ED76DEE832AB428F14 /* Pods-printJoy_Example-acknowledgements.markdown */,
+				62B80E3B97466879EDD0E3F3112E3C91 /* Pods-printJoy_Example-acknowledgements.plist */,
+				92EA2AEBE344C87973805BAF40391DFC /* Pods-printJoy_Example-dummy.m */,
+				A14756163CF81DE3F7CE37BF17C3640C /* Pods-printJoy_Example-frameworks.sh */,
+				69BB9D92EC64A510967FF89CC2F44CCE /* Pods-printJoy_Example-Info.plist */,
+				2DB37CF7B3A40B427E0307285347713C /* Pods-printJoy_Example-umbrella.h */,
+				0EC1CED735284762F907CAE1C8FA2D1F /* Pods-printJoy_Example.debug.xcconfig */,
+				ECD5765F4FF2E7EEE4111F56593C947C /* Pods-printJoy_Example.release.xcconfig */,
+			);
+			name = "Pods-printJoy_Example";
+			path = "Target Support Files/Pods-printJoy_Example";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		914CF29490001D210E6D769C323FE442 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				48042D2DE9E562CEB3886560168C5049 /* Pods-printJoy_Example */,
+				AC0A5D9C4F7976E69F25796504C02D28 /* Pods-printJoy_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AC0A5D9C4F7976E69F25796504C02D28 /* Pods-printJoy_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				04CF33F4519CB3059F513291D55E77C1 /* Pods-printJoy_Tests.modulemap */,
+				F2AF27C7A0ACDDA146147B313B81DE0E /* Pods-printJoy_Tests-acknowledgements.markdown */,
+				D74DADA8B00D60EF3EA04600D2664183 /* Pods-printJoy_Tests-acknowledgements.plist */,
+				A50FBE5CEB73BDE8561A934BE9C03465 /* Pods-printJoy_Tests-dummy.m */,
+				4EDE8D246D5301D707BA4AB654B16D67 /* Pods-printJoy_Tests-Info.plist */,
+				8568D85F6AEC20CBDB606B7CD7AF9D9C /* Pods-printJoy_Tests-umbrella.h */,
+				E7979DE2BF9C384135203712253B8D21 /* Pods-printJoy_Tests.debug.xcconfig */,
+				5069E786D2699A27A00AB5766904E5BF /* Pods-printJoy_Tests.release.xcconfig */,
+			);
+			name = "Pods-printJoy_Tests";
+			path = "Target Support Files/Pods-printJoy_Tests";
+			sourceTree = "<group>";
+		};
+		B6AA918785A67298FF599CD35FB08307 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0CFA36217B26500DBD9C681136B5FE9F /* printJoy */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				B6AA918785A67298FF599CD35FB08307 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				1CB927C7A4D7771F2C34350F299FC1A3 /* Products */,
+				914CF29490001D210E6D769C323FE442 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF4445364FD187FD1BA3907AAC3DC51A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				627C00B7E213D205E53B1D085799CC36 /* printJoy.modulemap */,
+				4714B759E5FFB92EF119B56B56ACD1C9 /* printJoy.xcconfig */,
+				B16DBD4962AB376873AA3B75C909B2A4 /* printJoy-dummy.m */,
+				B2674EF518130BF51510D9BA8CA3ED9C /* printJoy-Info.plist */,
+				AB41737CC21384DAE78160D06299ADA1 /* printJoy-prefix.pch */,
+				52A140C3110A29BB1A559D1921CCD961 /* printJoy-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/printJoy";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1B801FE379EF90E6434420860E14AC09 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E64E354CBD4C687852E89319042F288 /* Pods-printJoy_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		948E8D81038D3B5A969DC686B7F8B45B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFB4122BBEFC2EF7F10E9BF1539B4E65 /* Pods-printJoy_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB552E9C9086658EFF3237D4475FA382 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0995A1F2ED207658239521A84F0B537 /* printJoy-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		370A776C2B923257C38BD875A6170AD9 /* printJoy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96D04B19C41497918DCF38D06FEA339A /* Build configuration list for PBXNativeTarget "printJoy" */;
+			buildPhases = (
+				EB552E9C9086658EFF3237D4475FA382 /* Headers */,
+				8294016B053FF09B63C559184B80AE80 /* Sources */,
+				1F4DFC925183DB7BD2C17D0B67D23F50 /* Frameworks */,
+				EC55681E37CFCFB61F4CA4CFEDDAA533 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = printJoy;
+			productName = printJoy;
+			productReference = D97D26150713E9BEE83C8BC010455ADA /* printJoy.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		802AB41961DA675385FF867E0A04DB17 /* Pods-printJoy_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B18C737707FA86B0B0A73EDFAD3AD0A /* Build configuration list for PBXNativeTarget "Pods-printJoy_Tests" */;
+			buildPhases = (
+				1B801FE379EF90E6434420860E14AC09 /* Headers */,
+				9FF7E2FC608D071EDFB9598168B6EA2D /* Sources */,
+				39B21EDFB51F573040CB144187BA53CC /* Frameworks */,
+				68B3058BFFF237D1A5EC59F05CAC293A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEE16F66A6CFE174C42AD8970D6B9BE8 /* PBXTargetDependency */,
+			);
+			name = "Pods-printJoy_Tests";
+			productName = "Pods-printJoy_Tests";
+			productReference = 290632FB3482C8995D11124BBE20E440 /* Pods_printJoy_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8175F1B374A8D91FF766BF2E7D806E5C /* Pods-printJoy_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 170C8CD2FB57044578DB11A0B4C5839D /* Build configuration list for PBXNativeTarget "Pods-printJoy_Example" */;
+			buildPhases = (
+				948E8D81038D3B5A969DC686B7F8B45B /* Headers */,
+				D54D982BFE708C308FBFA9D31106EEE1 /* Sources */,
+				06A778F151864CF7292D266796A71C72 /* Frameworks */,
+				627183E8B9683C1F186B7F82CA9D84B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6AF7A536248399F5AF287BFD1CAAECF3 /* PBXTargetDependency */,
+			);
+			name = "Pods-printJoy_Example";
+			productName = "Pods-printJoy_Example";
+			productReference = 7C51FDA1DE92F3CA132E6A035B3536BF /* Pods_printJoy_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 1CB927C7A4D7771F2C34350F299FC1A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8175F1B374A8D91FF766BF2E7D806E5C /* Pods-printJoy_Example */,
+				802AB41961DA675385FF867E0A04DB17 /* Pods-printJoy_Tests */,
+				370A776C2B923257C38BD875A6170AD9 /* printJoy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		627183E8B9683C1F186B7F82CA9D84B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68B3058BFFF237D1A5EC59F05CAC293A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC55681E37CFCFB61F4CA4CFEDDAA533 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8294016B053FF09B63C559184B80AE80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD17BBE844D70D8867E14A1BFECE2282 /* printJoy-dummy.m in Sources */,
+				88C6244420BDD81DE504536ED06B1B76 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FF7E2FC608D071EDFB9598168B6EA2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52EFCB8E919025AF8C4B5D9056CEAEAB /* Pods-printJoy_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D54D982BFE708C308FBFA9D31106EEE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1556624DC2037605696F3806B3F272E4 /* Pods-printJoy_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6AF7A536248399F5AF287BFD1CAAECF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = printJoy;
+			target = 370A776C2B923257C38BD875A6170AD9 /* printJoy */;
+			targetProxy = CC39976A2190198AB72B9D45B27BBA25 /* PBXContainerItemProxy */;
+		};
+		FEE16F66A6CFE174C42AD8970D6B9BE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-printJoy_Example";
+			target = 8175F1B374A8D91FF766BF2E7D806E5C /* Pods-printJoy_Example */;
+			targetProxy = A6942343677A43C555FB62562ABA3F67 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10BE75DC1F46013EF1F36D6AE48498D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECD5765F4FF2E7EEE4111F56593C947C /* Pods-printJoy_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-printJoy_Example/Pods-printJoy_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-printJoy_Example/Pods-printJoy_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5520934569DD38B1EFD772053A3D2495 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7979DE2BF9C384135203712253B8D21 /* Pods-printJoy_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-printJoy_Tests/Pods-printJoy_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-printJoy_Tests/Pods-printJoy_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		61E82E32EB9F80975DA8B20F25066A99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5069E786D2699A27A00AB5766904E5BF /* Pods-printJoy_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-printJoy_Tests/Pods-printJoy_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-printJoy_Tests/Pods-printJoy_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7AF9B6BAF679BDA5100A55DED95E951F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4714B759E5FFB92EF119B56B56ACD1C9 /* printJoy.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/printJoy/printJoy-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/printJoy/printJoy-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/printJoy/printJoy.modulemap";
+				PRODUCT_MODULE_NAME = printJoy;
+				PRODUCT_NAME = printJoy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		97C3C8A5E885AE355D9CC0F2A10ED20C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9DFA7D08415265C89B4959C7F4554A76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		EF8980C47AA18544308D1E0142B179C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4714B759E5FFB92EF119B56B56ACD1C9 /* printJoy.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/printJoy/printJoy-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/printJoy/printJoy-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/printJoy/printJoy.modulemap";
+				PRODUCT_MODULE_NAME = printJoy;
+				PRODUCT_NAME = printJoy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F6E3AD6A335931DC549811DD1D41360A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EC1CED735284762F907CAE1C8FA2D1F /* Pods-printJoy_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-printJoy_Example/Pods-printJoy_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-printJoy_Example/Pods-printJoy_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B18C737707FA86B0B0A73EDFAD3AD0A /* Build configuration list for PBXNativeTarget "Pods-printJoy_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5520934569DD38B1EFD772053A3D2495 /* Debug */,
+				61E82E32EB9F80975DA8B20F25066A99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		170C8CD2FB57044578DB11A0B4C5839D /* Build configuration list for PBXNativeTarget "Pods-printJoy_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6E3AD6A335931DC549811DD1D41360A /* Debug */,
+				10BE75DC1F46013EF1F36D6AE48498D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97C3C8A5E885AE355D9CC0F2A10ED20C /* Debug */,
+				9DFA7D08415265C89B4959C7F4554A76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96D04B19C41497918DCF38D06FEA339A /* Build configuration list for PBXNativeTarget "printJoy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AF9B6BAF679BDA5100A55DED95E951F /* Debug */,
+				EF8980C47AA18544308D1E0142B179C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_printJoy_Example {
+  umbrella header "Pods-printJoy_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

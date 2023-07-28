@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'printJoy'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of printJoy.'
+  s.summary          = 'printJoy는 라이브러리 테스트용 pod입니다'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?

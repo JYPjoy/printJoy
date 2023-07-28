@@ -1,0 +1,16 @@
+PODS:
+  - printJoy (0.1.0)
+
+DEPENDENCIES:
+  - printJoy (from `../`)
+
+EXTERNAL SOURCES:
+  printJoy:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  printJoy: 39dbd4c1154daf271c1c252140f19519763b2205
+
+PODFILE CHECKSUM: abdacbd06fe879390859a2dd5a55c43fedba842d
+
+COCOAPODS: 1.8.4

@@ -1,0 +1,6 @@
+framework module printJoy {
+  umbrella header "printJoy-umbrella.h"
+
+  export *
+  module * { export * }
+}
